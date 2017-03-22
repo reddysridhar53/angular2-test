@@ -1,0 +1,36 @@
+<div class="home-experts-layout">
+	<div class="home-experts-layout-inner">
+		<h2>Find Instant Support</h2>
+		<div class="home-experts-content">
+			<div *ngFor="let expert of experts" class="home-expert">
+				<li class="home-expert-li">
+		          <a href="/counselor/{{expert.id}}">
+		            <img class="home-experts-img circle " src="{{expert.picUrl}}"/>
+		            <div class="home-experts-name">
+		              {{expert.name}}
+		            </div>
+
+		            <div class="home-experts-title">
+		              {{expert.title}}
+		            </div>
+
+		            <div class="expert-rating-container">
+		              <span class="expert-rating">
+		            	{{expert.rating}} Rating
+		              </span>
+		              |
+		              <span>
+		              {{expert.reviews.length}} reviews
+		              </span>
+		            </div>
+		          </a>
+        		</li>
+			</div>
+		</div>
+		<div class="home-experts-btn">
+			<div class="yd-btn browse-experts">
+				browse experts
+			</div>
+		</div>
+	</div>
+</div>

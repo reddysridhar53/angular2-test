@@ -1,0 +1,87 @@
+@font-face {
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+.home-banner-layout{
+
+	width: 100%;
+	min-height: 500px;
+	float: left;
+	background-image: url('	https://s3-ap-southeast-1.amazonaws.com/yourdost-images/home/Bg_color.png');
+
+	.home-banner-layout-inner{
+
+		padding: 0 3em;
+		margin: 8em 0 0;
+	}
+	.yd-btn.active{
+
+		background: #009688;
+		text-decoration: none;
+	}
+}
+.home-banner-txt .header{
+
+	font-family: 'Open Sans';
+	font-size: 1.8em;
+	font-weight: 300;
+	color: #000000;
+	line-height: 1.4em;
+}
+.home-banner-txt .sub-header{
+
+	font-family: 'Open Sans';
+	font-size: 0.9em;
+	margin-top: 1em;
+	font-weight: 300;
+	color: #000000;
+}
+.home-banner-txt .button{
+
+	margin-top: 4em;
+}
+.home-banner-txt .button-txt{
+
+	font-family: 'Open Sans';
+	font-size: 0.8em;
+	margin-top: 1em;
+	color: #000;
+	font-weight: 400;
+}
+
+.yd-btn{
+
+	color: #fff;
+	font-size: 1em;
+	font-weight: 700;
+	font-family: 'Open Sans';
+	padding: 0.6em;
+	border-radius: 1.6em;
+	width: 8em;
+	cursor: pointer;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background: #302664;
+}

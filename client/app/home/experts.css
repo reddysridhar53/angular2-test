@@ -1,0 +1,79 @@
+.home-experts-layout-inner{
+
+	text-align: center;
+	padding: 3em;
+}
+.home-experts-btn{
+
+	text-align: center;
+}
+.home-expert{
+
+	width: 30%;
+	margin:1%;
+	display: inline-block;
+}
+.home-experts-layout-inner h2{
+
+	font-family: 'Open Sans';
+	font-size: 1.8em;
+	font-weight: 400;
+	color: rgba(0,0,0,0.8);
+	margin-top: 1em;
+}
+.home-experts-btn{
+
+	margin-top: 1em;
+}
+.home-expert .home-experts-img{
+
+	width: 8em;
+    height: 8em;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+}
+.home-expert li{
+
+	list-style-type: none;
+}
+.home-expert a{
+
+	text-decoration: none;
+}
+.home-expert .home-experts-name{
+
+	font-family: 'Open Sans';
+	font-size: 1.1em;
+	color: rgba(0,0,0,0.8);
+}
+.home-expert .home-experts-title{
+
+	font-family: 'Open Sans';
+	font-size: 0.9em;
+	color: rgba(0,0,0,0.5);
+}
+.home-expert .expert-rating-container{
+
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #F6A623;
+	letter-spacing: -0.26px;
+	line-height: 32px;
+}
+.yd-btn{
+
+	color: #fff;
+	font-size: 1em;
+	font-weight: 400;
+	font-family: 'Open Sans';
+	padding: 0.6em;
+	border-radius: 1.6em;
+	width: 10em;
+	cursor: pointer;
+	text-transform: uppercase;
+	text-align: center;
+	background: #302664;
+	margin: 0 auto;
+}
